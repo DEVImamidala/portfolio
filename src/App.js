@@ -11,7 +11,7 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <BrowserRouter basename={process.env.PUBLIC_URL}>
         <nav>
           <label className='logo'>Portfolio</label>
           <input type="checkbox" id="check"/>
