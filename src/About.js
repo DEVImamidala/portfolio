@@ -9,7 +9,7 @@ const About = () => {
     
           <div>
             <p className='aboutparagraph'>I am a fresher graduate of 2022.</p>
-         <span className='paraabout'>I worked as an intern in krify software industry  in the duration of 6months.i have worked on ui and ux design  as a frontend deveeloper and as an backend developer on api's.Technologies i have used  are HTML,CSS,JAVASCRIPT,BOOTSTRAP and Framework is reactjs. backend technologies are nodejs,expressjs and database which i have used is postgreeSql .i have done api's for movie ticket booking, and library management system . i can develop both frontend and full stack projects.</span> 
+         <span className='paraabout'>I worked as an intern in krify software industry for 6months.I have worked on ui and ux design  as a Frontend developer and as an Backend developer on api's with HTML,CSS,JAVASCRIPT,BOOTSTRAP ,REACTJS, nodejs,expressjs and database which i have used is PostgreeSql .I have done api's for movie ticket booking, and library management system . i can develop  full stack projects.</span> 
           </div>
           
       </div>

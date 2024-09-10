@@ -1,9 +1,8 @@
 import React from 'react';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { HashRouter as Router, Routes, Route, Link } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
 import Projects from './Projects';
-import Services from './Services'; // You might want to remove this if it's not used anymore
 import Contact from './Contact';
 import Skills from './Skills';
 import './App.css';
@@ -11,7 +10,7 @@ import './App.css';
 const App = () => {
   return (
     <>
-      <BrowserRouter>
+      <Router>
         <nav>
           <label className='logo'>Portfolio</label>
           <input type="checkbox" id="check"/>
@@ -21,12 +20,12 @@ const App = () => {
             <span className="bar"></span>
           </label>
           <ul>
-            <li><a className="active" href="/">Home</a></li>
-            <li><a href="/About">About</a></li>
-            <li><a href="/Skills">Skills</a></li>
-            <li><a href="/Projects">Projects</a></li>
+            <li><Link className="active" to="/">Home</Link></li>
+            <li><Link to="/About">About</Link></li>
+            <li><Link to="/Skills">Skills</Link></li>
+            <li><Link to="/Projects">Projects</Link></li>
             <li><a href="https://github.com/devimamidala" target="_blank" rel="noopener noreferrer">GitHub</a></li>
-            <li><a href="/Contact">Contact</a></li>
+            <li><Link to="/Contact">Contact</Link></li>
           </ul>
         </nav>
         <div>
@@ -38,13 +37,10 @@ const App = () => {
             <Route path="/Contact" element={<Contact />} />
           </Routes>
         </div>
-      </BrowserRouter>
+      </Router>
     </>
   );
 }
-
-
-
 
 export default App;
 

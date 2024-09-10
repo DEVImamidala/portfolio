@@ -4,6 +4,7 @@ import Contact from './Contact'
 import github from './Assests/github.png'
 import mail from './Assests/mail (2).png'
 import whatsapp from './Assests/whatsapp.png'
+import linkedln from './Assests/linkedln.png'
 
 
 
@@ -17,21 +18,21 @@ const Home = () => {
     <>
     <div className='homepage'>
       <div className='homepageleft'>
-          <h1 id='name'>Hii,i'm Devi Mamidala</h1>
+          <h1 id='name'>Hii,I'm Devi Mamidala</h1>
           <div className="typing">
-                <div class="and-txt">and</div>
+                {/* <div class="and-txt">and</div> */}
                   <div class="animy">
-                    <div class="static-txt">i'm a</div>
+                    <div class="static-txt">I'm a</div>
                         <div class="dynamic-txt">
-                            <li><span>full stack developer</span></li>
-                            <li><span>python developer</span></li>
+                            <li><span>Full Stack Developer</span></li>
+                            <li><span>Python Developer</span></li>
                         </div>
                   </div>
             </div>
         
        
 
-        <p id="description">I am Passionate about the website development and am eager to apply my knowledge and skills in a professional work.I have learn more in this filed through professional experts and on my own i have built more ui/ux designs and written more api's go throught the website to know more about me. </p>
+        <p id="description">I am Passionate about the website development , eager to apply my knowledge and skills in a professional work.I had learnt more in this field through professional experts and I have built more ui/ux designs and written more API's go through the website to know more about me. </p>
         
 
 
@@ -46,6 +47,8 @@ const Home = () => {
                   <div id='icon'><a href="https://github.com/devimamidala" target="_blank" rel="noopener noreferrer"><img src={github}/></a></div> 
                   <div id='icon'><a href="mailto:devimamidala385@gmail.com"><img src={mail}/></a></div>
                   <div id='icon'><a href="https://wa.me/6304188699"><img src={whatsapp}/></a></div>
+                  <div id='icon'><a href='https://www.linkedin.com/in/devi-mamidala-9524a6225/'><img src={linkedln}/></a></div>
+
           </div>
     
       </div>
