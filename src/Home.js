@@ -24,7 +24,7 @@ const Home = () => {
                   <div class="animy">
                     <div class="static-txt">I'm a</div>
                         <div class="dynamic-txt">
-                            <li><span>Full Stack Developer</span></li>
+                            <li><span>Full Stack web Developer</span></li>
                             <li><span>Python Developer</span></li>
                         </div>
                   </div>
